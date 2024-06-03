@@ -1,0 +1,102 @@
+:root {
+    --background-image: url(image/Arena.webp)
+}
+
+.dices {
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+    background-color: lightgrey;
+    border: 5px solid black;
+}
+
+.headings {
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits {
+    column-count: 5;
+    column-fill: balance;
+    background-color: gray;
+    border: 5px solid black;
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.dices-computer-player {
+    column-count: 2;
+    border: 5px solid black;
+}
+
+.dices-player {
+    column-count: 2;
+    border: 5px solid black;
+}
+
+.message {
+    column-count: 3;
+    column-fill: balance;
+    background-color: gray
+}
+
+.message-box {
+    border: 5px solid rgb(17, 11, 11);
+}
+
+.controls {
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+    background-color: gray;
+
+}
+
+.dice {
+    font-size: 64pt;
+}
+
+button {
+    width: 100%;
+}
+
+h1,
+h2 {
+    color: var(--heading-color);
+}
+
+body {
+    background-image: url(/image/Arena.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid gray
+}
+
+.head {
+    max-width: 90px;
+    margin-right: 50px;
+    border: 5px solid grey;
+}
+
+.head2 {
+    max-width: 400px;
+    margin-left: -50px;
+    border: 5px solid grey;
+}
+
+.cpu {
+    margin: 200px;
+}
+
+.player {
+    margin: 200px;
+}
+
+.stand-off{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
